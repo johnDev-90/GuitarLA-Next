@@ -1,0 +1,30 @@
+
+
+.navegacion{
+    margin-top: 5rem;
+    display: flex;
+    gap: 2rem;
+    
+
+}
+
+.navegacion a{
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    padding: .5rem;
+
+}
+
+.footerContainer{
+    background-color: var(--black);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
