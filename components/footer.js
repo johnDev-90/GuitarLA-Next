@@ -5,6 +5,7 @@ import styles from '../styles/Footer.module.css'
 const Footer = () => {
   return (
       <footer className={styles.footerContainer}>
+         <div className={`contenedor ${styles.contenido}`}>
          <nav className={styles.navegacion}>
                 <Link  href={'/'}>
                   Inicio
@@ -25,7 +26,8 @@ const Footer = () => {
               
             </nav>
 
-            <p>All rigths reserve {new Date().getFullYear()}</p>
+            <p className={styles.copyrigth}>All rigths reserve {new Date().getFullYear()}</p>
+         </div>
       </footer>
   )
 }

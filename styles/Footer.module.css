@@ -1,12 +1,5 @@
 
 
-.navegacion{
-    margin-top: 5rem;
-    display: flex;
-    gap: 2rem;
-    
-
-}
 
 .navegacion a{
     color: var(--white);
@@ -22,9 +15,44 @@
 
 .footerContainer{
     background-color: var(--black);
-    color: white;
+    padding: 5rem 0;
+    margin-top: 5rem;
+    
+    
+}
+
+
+.navegacion{
     display: flex;
-    justify-content: space-evenly;
-    
-    
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.copyrigth{
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+}
+
+@media(min-width:768px){
+
+    .navegacion{
+        display: flex;
+        flex-direction: row;
+     
+    }
+  
+
+}
+
+
+
+
+@media(min-width:768px){
+    .contenido{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
