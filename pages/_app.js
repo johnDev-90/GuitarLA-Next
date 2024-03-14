@@ -46,8 +46,9 @@ window.localStorage.setItem('carrito', JSON.stringify( carrito ));
 
   return <Component {...pageProps}
 
-  carritto = {carrito}
+  carrito = {carrito}
   agregarCarrito = {agregarCarrito}
+  actualizarCantidad = {actualizarCantidad}
   
   />;
 }
