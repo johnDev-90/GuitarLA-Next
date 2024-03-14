@@ -8,7 +8,7 @@ const Guitarra = ({guitarra}) => {
  const {description, name, price, image, url} = guitarra
 
  const paragraphText = description[0].children[0].text;
- console.log(image.data.attributes.formats.small.url)
+
 
 
   return (

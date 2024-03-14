@@ -4,12 +4,13 @@ import Link from 'next/link'
 import styles from '../styles/Header.module.css'
 import { useRouter } from 'next/router'
 import { useState, useEffect } from 'react'
+import carritoImg from "../public/img/carrito.png"
 
 
 const Header = () => {
 
     const [route, setRoute] = useState('');
-    console.log(route)
+
     const router = useRouter()
 
    useEffect(() => {
@@ -44,6 +45,11 @@ const Header = () => {
 
                 <Link className={route === '/tienda'? styles.selected: ''} href={'/tienda'}>
                   Tienda
+                </Link>
+
+                <Link href={'/carrito'}>
+                     <Image src={carritoImg} width={25}  />
+                
                 </Link>
 
              
